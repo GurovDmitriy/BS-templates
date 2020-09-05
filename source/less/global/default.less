@@ -1,4 +1,4 @@
-html,
+/*html,
 body {
   margin: 0;
   padding: 0;
@@ -13,7 +13,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-}
+}*/
 
 body {
   min-width: @mobileWidth;
@@ -21,7 +21,7 @@ body {
 
 /*sr omly*/
 
-.visually-hidden {
+/*.visually-hidden {
   position: absolute;
 
   width: 1px;
@@ -33,7 +33,7 @@ body {
 
   clip: rect(0, 0, 0, 0);
   overflow: hidden;
-}
+}*/
 
 button:hover {
   cursor: pointer;
@@ -78,61 +78,4 @@ button:focus:not(:focus-visible) {
 
 /*standart tag*/
 
-a {
-  color: inherit;
-
-  &:hover {
-    color: inherit;
-    cursor: pointer;
-  }
-
-  &:focus {
-    color: inherit;
-  }
-}
-
-figure {
-  margin: 0;
-  padding: 0;
-}
-
-textarea {
-  resize: vertical;
-}
-
-/*blog*/
-
-.usr-blog .col-sm-3,
-.usr-blog .col-sm-9 {
-  min-height: 400px;
-  border: 10px solid var(--colorWhite);
-}
-
-.usr-blog__footer {
-  min-height: 100px;
-  border: 10px solid var(--colorWhite);
-}
-
-/*portfolio*/
-
-.usr-portfolio__menu,
-.usr-portfolio__footer,
-.usr-portfolio .col-sm-3 {
-  min-height: 100px;
-  border: 10px solid var(--colorWhite);
-}
-
-.usr-portfolio__header {
-  min-height: 200px;
-  border: 10px solid var(--colorWhite);
-}
-
 /*Bootstrap*/
-
-.bg-success {
-  background-color: var(--colorGrey);
-}
-
-.btn {
-  border-radius: 0;
-}
