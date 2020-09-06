@@ -78,20 +78,98 @@ button:focus:not(:focus-visible) {
 
 /*standart tag*/
 
+h1 {
+  margin-top: 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+a {
+  color: inherit;
+}
+
+section {
+  margin-bottom: 40px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
 blockquote {
   padding: 0;
   border: none;
 }
+
 textarea {
   resize: vertical;
 }
 
+/*main-page*/
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-page main {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.main-page footer {
+  flex-grow: 1;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  color: var(--colorWhite);
+  background-color: var(--colorBlack);
+}
+
+/*blog*/
+
+.blog footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  color: var(--colorWhite);
+  background-color: var(--colorBlack);
+}
+
 /*Bootstrap*/
 
-.media-object {
+.blog .row {
+  background-color: var(--colorGrey);
+}
+
+.blog .col-sm-3,
+.blog .col-sm-9 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.blog .col-sm-9 {
+  background-color: var(--colorWhite);
+}
+
+.blog .media-object {
   width: 60px;
 }
 
-.media-left {
+.blog .media-left {
   padding-right: 20px;
+}
+
+.blog .label {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 20px;
 }
