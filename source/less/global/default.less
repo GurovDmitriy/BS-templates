@@ -16,6 +16,7 @@ html {
 }*/
 
 body {
+  position: relative;
   min-width: @mobileWidth;
 }
 
@@ -136,16 +137,6 @@ textarea {
 
 /*blog*/
 
-.blog footer {
-  padding-top: 20px;
-  padding-bottom: 20px;
-
-  color: var(--colorWhite);
-  background-color: var(--colorBlack);
-}
-
-/*Bootstrap*/
-
 .blog .row {
   background-color: var(--colorGrey);
 }
@@ -173,3 +164,51 @@ textarea {
   vertical-align: middle;
   margin-bottom: 20px;
 }
+
+.blog footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  color: var(--colorWhite);
+  background-color: var(--colorBlack);
+}
+
+/*portfolio*/
+
+.portfolio .affix {
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.portfolio .navbar-inverse {
+  border-radius: 0;
+}
+
+.portfolio section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.portfolio .col-sm-3 {
+  margin-bottom: 40px;
+}
+
+.portfolio figcaption {
+  margin-bottom: 20px;
+}
+
+.portfolio .img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  color: var(--colorWhite);
+  background-color: var(--colorBlack);
+}
+
+
