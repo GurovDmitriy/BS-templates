@@ -55,6 +55,9 @@ html {
 }*/
 body {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   min-width: 280px;
 }
 /*sr omly*/
@@ -127,11 +130,6 @@ textarea {
   resize: vertical;
 }
 /*main-page*/
-.main-page {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
 .main-page main {
   padding-top: 20px;
   padding-bottom: 40px;
@@ -167,6 +165,7 @@ textarea {
   margin-bottom: 20px;
 }
 .blog footer {
+  flex-grow: 1;
   padding-top: 40px;
   padding-bottom: 40px;
   color: var(--colorWhite);
@@ -196,6 +195,7 @@ textarea {
   height: auto;
 }
 .portfolio footer {
+  flex-grow: 1;
   padding-top: 40px;
   padding-bottom: 40px;
   color: var(--colorWhite);
