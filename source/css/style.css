@@ -125,12 +125,6 @@ h3 {
 a {
   color: inherit;
 }
-section {
-  margin-bottom: 40px;
-}
-section:last-child {
-  margin-bottom: 0;
-}
 blockquote {
   padding: 0;
   border: none;
@@ -213,6 +207,69 @@ footer {
 .bs3-social .navbar {
   border-radius: 0;
 }
+.bs3-social img {
+  margin-right: auto;
+  margin-left: auto;
+}
 .bs3-social article img {
   margin-bottom: 15px;
 }
+/*.bs3-social .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+}
+
+.bs3-social .row .col-lg-3 {
+  width: 100%;
+
+  @media (min-width: @laptopWidth) {
+    width: 25%;
+  }
+}
+
+.bs3-social .row .col-lg-2 {
+  width: 100%;
+
+  @media (min-width: @laptopWidth) {
+    width: 16.66666667%;
+  }
+}
+
+.bs3-social .col-lg-2 > .well,
+.bs3-social .col-lg-3 > .well {
+  height: 100%;
+  margin-bottom: 0;
+}
+
+.bs3-social .row .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.bs3-social .row .row .col-lg-3 {
+  width: 100%;
+
+  margin-bottom: 20px;
+
+  @media (min-width: @laptopWidth) {
+    width: 25%;
+
+    margin-bottom: 0;
+  }
+}
+
+.bs3-social .row .row .well {
+  height: 100%;
+  margin-bottom: 0;
+}
+*/
