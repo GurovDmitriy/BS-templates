@@ -55,7 +55,11 @@ button:focus:not(:focus-visible) {
 }
 
 .js-focus-visible .focus-visible {
-  .focusCustom(var(--colorBlack));
+  .focusCustom(var(--colorBlack3));
+}
+
+.js-focus-visible footer .focus-visible {
+  .focusCustom(var(--colorWhite2));
 }
 
 .js-focus-visible button.focus-visible {
@@ -72,13 +76,17 @@ button:focus:not(:focus-visible) {
 
   padding: 10px;
 
-  color: var(--colorWhite);
+  color: var(--colorWhite2);
 
-  background-color: var(--colorBlack);
+  background-color: var(--colorBlack3);
 }
 
 .skip-link:focus {
   top: 0;
+}
+
+a.skip-link:focus {
+  color: var(--colorWhite2);
 }
 
 /*standart tag*/
@@ -129,88 +137,6 @@ textarea {
   padding-top: 40px;
   padding-bottom: 40px;
 
-  color: var(--colorWhite);
-  background-color: var(--colorBlack);
+  color: var(--colorWhite2);
+  background-color: var(--colorBlack3);
 }
-
-/*blog*/
-
-.blog .row {
-  background-color: var(--colorGrey);
-}
-
-.blog .col-sm-3,
-.blog .col-sm-9 {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.blog .col-sm-9 {
-  background-color: var(--colorWhite);
-}
-
-.blog .media-object {
-  width: 60px;
-}
-
-.blog .media-left {
-  padding-right: 20px;
-}
-
-.blog .label {
-  display: inline-block;
-  vertical-align: middle;
-  margin-bottom: 20px;
-}
-
-.blog footer {
-  flex-grow: 1;
-
-  padding-top: 40px;
-  padding-bottom: 40px;
-
-  color: var(--colorWhite);
-  background-color: var(--colorBlack);
-}
-
-/*portfolio*/
-
-.portfolio .affix {
-  top: 0;
-  width: 100%;
-  z-index: 100;
-}
-
-.portfolio .navbar-inverse {
-  border-radius: 0;
-}
-
-.portfolio section {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.portfolio .col-sm-3 {
-  margin-bottom: 40px;
-}
-
-.portfolio figcaption {
-  margin-bottom: 20px;
-}
-
-.portfolio .img-responsive {
-  width: 100%;
-  height: auto;
-}
-
-.portfolio footer {
-  flex-grow: 1;
-
-  padding-top: 40px;
-  padding-bottom: 40px;
-
-  color: var(--colorWhite);
-  background-color: var(--colorBlack);
-}
-
-

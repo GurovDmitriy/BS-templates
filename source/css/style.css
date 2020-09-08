@@ -26,7 +26,10 @@
   /* переменные цвета */
   --colorWhite: #ffffff;
   --colorBlack: #000000;
-  --colorGrey: lightgrey;
+  --colorWhite2: #9d9d9d;
+  --colorBlack2: #333333;
+  --colorBlack3: #222222;
+  --colorGrey: #eeeeee;
 }
 /* переменные less */
 /* переменные вьюпорта */
@@ -85,7 +88,10 @@ button:focus:not(:focus-visible) {
   outline: none;
 }
 .js-focus-visible .focus-visible {
-  outline: 2px solid var(--colorBlack);
+  outline: 2px solid var(--colorBlack3);
+}
+.js-focus-visible footer .focus-visible {
+  outline: 2px solid var(--colorWhite2);
 }
 .js-focus-visible button.focus-visible {
   outline-offset: 2px;
@@ -97,11 +103,14 @@ button:focus:not(:focus-visible) {
   left: 0;
   z-index: 100;
   padding: 10px;
-  color: var(--colorWhite);
-  background-color: var(--colorBlack);
+  color: var(--colorWhite2);
+  background-color: var(--colorBlack3);
 }
 .skip-link:focus {
   top: 0;
+}
+a.skip-link:focus {
+  color: var(--colorWhite2);
 }
 /*standart tag*/
 h1 {
@@ -138,10 +147,9 @@ textarea {
   flex-grow: 1;
   padding-top: 40px;
   padding-bottom: 40px;
-  color: var(--colorWhite);
-  background-color: var(--colorBlack);
+  color: var(--colorWhite2);
+  background-color: var(--colorBlack3);
 }
-/*blog*/
 .blog .row {
   background-color: var(--colorGrey);
 }
@@ -168,10 +176,9 @@ textarea {
   flex-grow: 1;
   padding-top: 40px;
   padding-bottom: 40px;
-  color: var(--colorWhite);
-  background-color: var(--colorBlack);
+  color: var(--colorWhite2);
+  background-color: var(--colorBlack3);
 }
-/*portfolio*/
 .portfolio .affix {
   top: 0;
   width: 100%;
@@ -198,6 +205,6 @@ textarea {
   flex-grow: 1;
   padding-top: 40px;
   padding-bottom: 40px;
-  color: var(--colorWhite);
-  background-color: var(--colorBlack);
+  color: var(--colorWhite2);
+  background-color: var(--colorBlack3);
 }

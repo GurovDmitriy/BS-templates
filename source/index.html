@@ -3,11 +3,11 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Logo - BS: Templates</title>
+  <title>Logo - BS: Bootstrap templates</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="description"              content="Logo - Bootstrap 3 site - BS templates">
+  <meta name="description"              content="Logo - Bootstrap 3 site: Bootstrap templates">
   <meta name="keywords"                 content="logo, bootstrap, template, theme, blog, portfolio, webpage, social, marketing, analytics, online-store">
   <meta name="author"                   content="Gurov Dmitriy">
   <meta name="robots"                   content="">
@@ -42,7 +42,7 @@
 
   <script src="js/webp.js"        async></script>
   <script src="js/picturefill.js" async></script>
-  <script src="js/lazysizes.js"   async></script>
+<!--   <script src="js/lazysizes.js"   async></script> -->
 
 </head>
 
@@ -51,36 +51,44 @@
   <div class="jumbotron">
     <header class="container text-center">
 
-      <h1>Bootstrap templates</h1>
+      <h1 tabindex="0">Bootstrap templates</h1>
 
     </header>
   </div>
 
-  <main class="container text-center">
+  <main class="container">
 
     <nav>
-      <h2>Navigation:</h2>
+
+      <h2 class="text-center" tabindex="0">Navigation</h2>
+      <a class="skip-link" href="#footer">Skip to footer</a>
 
       <ul class="nav nav nav-pills nav-stacked">
         <li><a href="bs3-blog.html">BS3: Blog</a></li>
         <li><a href="bs3-portfolio.html">BS3: Portfolio</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
+        <li><a href="#">BS3: Webpage</a></li>
+        <li><a href="#">BS3: Social</a></li>
+        <li><a href="#">BS3: Marketing</a></li>
+        <li><a href="#">BS3: Marketing 2</a></li>
+        <li><a href="#">BS3: Analytics</a></li>
+        <li><a href="#">BS3: Online Store</a></li>
+        <li><a href="#">BS4: Basic temlate</a></li>
       </ul>
     </nav>
 
   </main>
 
-  <footer>
+  <footer id="footer">
 
     <div class="container text-center">
-      <h2>Create by</h2>
+      <h2 tabindex="0">Create by</h2>
 
       <a href="#">Logo</a>
     </div>
 
   </footer>
+
+  <script src="js/focus-visible.js" async></script>
 
 </body>
 </html>
