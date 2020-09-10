@@ -118,18 +118,6 @@ a.skip-link:focus {
   color: var(--colorWhite2);
 }
 /*standart tag*/
-h1 {
-  margin-top: 0;
-}
-h2 {
-  margin-top: 0;
-}
-h3 {
-  margin-top: 0;
-}
-a {
-  color: inherit;
-}
 blockquote {
   padding: 0;
   border: none;
@@ -143,6 +131,9 @@ footer {
   padding-bottom: 40px;
   color: var(--colorWhite2);
   background-color: var(--colorBlack3);
+}
+.form-control:focus {
+  border-color: transparent;
 }
 /*main-page*/
 .main-page main {
@@ -175,6 +166,9 @@ footer {
   top: 0;
   width: 100%;
   z-index: 100;
+}
+.bs3-portfolio .jumbotron {
+  margin-bottom: 0;
 }
 .bs3-portfolio .navbar-inverse {
   border-radius: 0;
