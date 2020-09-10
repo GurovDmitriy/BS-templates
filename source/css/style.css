@@ -30,6 +30,7 @@
   --colorBlack2: #333333;
   --colorBlack3: #222222;
   --colorGrey: #eeeeee;
+  --colorGrey2: #f5f5f5;
 }
 /* переменные less */
 /* переменные вьюпорта */
@@ -272,4 +273,22 @@ footer {
 .bs3-marketing-2 .carousel img {
   width: 100%;
   height: auto;
+}
+.bs3-analytics .navbar {
+  margin-bottom: 0;
+}
+.bs3-analytics .usr-main {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .bs3-analytics .usr-main {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+}
+.bs3-analytics .usr-main__menu {
+  padding-top: 19px;
+  padding-bottom: 19px;
+  background-color: var(--colorGrey);
 }
