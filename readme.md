@@ -1,3 +1,7 @@
 # BS Temlates
 
-- Шаблоны-сетки Bootstrap
+В проекте использованы:
+
+- Bootstrap
+- Less
+- Grunt
