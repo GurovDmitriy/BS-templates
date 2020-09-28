@@ -1,0 +1,198 @@
+.bs3-simply-me body {
+
+  min-width: 280px;
+
+  font-family: 'Montserrat', sans-serif;
+  color: var(--colorBlack5);
+}
+
+.js-focus-visible .bs3-simply-me  .focus-visible {
+  .focusCustom(var(--colorGreen));
+}
+
+.js-focus-visible .bs3-simply-me  section:nth-child(1) h2.focus-visible {
+  .focusCustom(var(--colorWhite));
+}
+
+.bs3-simply-me .skip-link {
+  color: var(--colorWhite);
+
+  background-color: var(--colorGreen);
+}
+
+.bs3-simply-me a {
+  color: inherit;
+
+  &:hover {
+    color: inherit;
+    cursor: pointer;
+  }
+
+  &:focus {
+    color: inherit;
+  }
+}
+
+.bs3-simply-me h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: @tabletWidth) {
+    margin-bottom: 20px;
+  }
+}
+
+.bs3-simply-me h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: @tabletWidth) {
+    margin-bottom: 20px;
+  }
+}
+
+.bs3-simply-me h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: @tabletWidth) {
+    margin-bottom: 20px;
+  }
+}
+
+.bs3-simply-me p,
+.bs3-simply-me figcaption {
+  margin-bottom: 20px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: @tabletWidth) {
+    margin-bottom: 30px;
+  }
+}
+
+.bs3-simply-me figure a {
+  display: block;
+}
+
+.bs3-simply-me figure img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+
+  @media (min-width: @tabletWidth) {
+    margin-bottom: 30px;
+  }
+}
+
+.bs3-simply-me section:nth-child(1) {
+  color: var(--colorWhite);
+  background-color: var(--colorGreen);
+}
+
+.bs3-simply-me section:nth-child(1) img {
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: @tabletWidth) {
+    margin-bottom: 30px;
+  }
+}
+
+.bs3-simply-me section:nth-child(2),
+.bs3-simply-me footer {
+  color: var(--colorWhite);
+  background-color: var(--colorBlue);
+}
+
+.bs3-simply-me .container-fluid {
+  padding: 40px 15px;
+
+  @media (min-width: @tabletWidth) {
+    padding: 60px 40px;
+  }
+
+  @media (min-width: @desktopWidth + 120px) {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+.bs3-simply-me .container {
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media (min-width: @tabletWidth) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media (min-width: @desktopWidth + 120px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.bs3-simply-me .col-sm-4 {
+  margin-bottom: 20px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: @tabletWidth) {
+    margin-bottom: 30px;
+  }
+}
+
+.bs3-simply-me .btn-default {
+  position: relative;
+
+  padding-left: 48px;
+
+  color: var(--colorBlack);
+
+  &:hover,
+  &:focus {
+    color: var(--colorGreen);
+  }
+}
+
+.bs3-simply-me .btn-default .glyphicon {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+
+  transform: translate(0, -50%);
+}
+
+.bs3-simply-me .navbar-nav {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.bs3-simply-me .navbar-default .navbar-nav > li > a:focus,
+.bs3-simply-me .navbar-default .navbar-nav > li > a:hover {
+  &:hover {
+    color: var(--colorGreen);
+  }
+}
+
+.bs3-simply-me .navbar-header .skip-link {
+  color: var(--colorWhite);
+}

@@ -30,8 +30,13 @@
   --colorBlack2: #333333;
   --colorBlack3: #222222;
   --colorBlack4: #343a40;
+  --colorBlack5: #555555;
+  --colorBlack6: #f5f6f7;
   --colorGrey: #eeeeee;
   --colorGrey2: #f5f5f5;
+  --colorGreen: #1abc9c;
+  --colorBlue: #474e5d;
+  --colorBrown: #2f2f2f;
 }
 /* переменные less */
 /* переменные вьюпорта */
@@ -136,6 +141,180 @@ footer {
 .main-page main {
   padding-top: 20px;
   padding-bottom: 40px;
+}
+.bs3-simply-me body {
+  min-width: 280px;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--colorBlack5);
+}
+.js-focus-visible .bs3-simply-me .focus-visible {
+  outline: 2px solid var(--colorGreen);
+}
+.js-focus-visible .bs3-simply-me section:nth-child(1) h2.focus-visible {
+  outline: 2px solid var(--colorWhite);
+}
+.bs3-simply-me .skip-link {
+  color: var(--colorWhite);
+  background-color: var(--colorGreen);
+}
+.bs3-simply-me a {
+  color: inherit;
+}
+.bs3-simply-me a:hover {
+  color: inherit;
+  cursor: pointer;
+}
+.bs3-simply-me a:focus {
+  color: inherit;
+}
+.bs3-simply-me h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.bs3-simply-me h1:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .bs3-simply-me h1 {
+    margin-bottom: 20px;
+  }
+}
+.bs3-simply-me h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.bs3-simply-me h2:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .bs3-simply-me h2 {
+    margin-bottom: 20px;
+  }
+}
+.bs3-simply-me h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.bs3-simply-me h3:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .bs3-simply-me h3 {
+    margin-bottom: 20px;
+  }
+}
+.bs3-simply-me p,
+.bs3-simply-me figcaption {
+  margin-bottom: 20px;
+}
+.bs3-simply-me p:last-child,
+.bs3-simply-me figcaption:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .bs3-simply-me p,
+  .bs3-simply-me figcaption {
+    margin-bottom: 30px;
+  }
+}
+.bs3-simply-me figure a {
+  display: block;
+}
+.bs3-simply-me figure img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .bs3-simply-me figure img {
+    margin-bottom: 30px;
+  }
+}
+.bs3-simply-me section:nth-child(1) {
+  color: var(--colorWhite);
+  background-color: var(--colorGreen);
+}
+.bs3-simply-me section:nth-child(1) img {
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 768px) {
+  .bs3-simply-me section:nth-child(1) img {
+    margin-bottom: 30px;
+  }
+}
+.bs3-simply-me section:nth-child(2),
+.bs3-simply-me footer {
+  color: var(--colorWhite);
+  background-color: var(--colorBlue);
+}
+.bs3-simply-me .container-fluid {
+  padding: 40px 15px;
+}
+@media (min-width: 768px) {
+  .bs3-simply-me .container-fluid {
+    padding: 60px 40px;
+  }
+}
+@media (min-width: 1320px) {
+  .bs3-simply-me .container-fluid {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+.bs3-simply-me .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .bs3-simply-me .container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media (min-width: 1320px) {
+  .bs3-simply-me .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.bs3-simply-me .col-sm-4 {
+  margin-bottom: 20px;
+}
+.bs3-simply-me .col-sm-4:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .bs3-simply-me .col-sm-4 {
+    margin-bottom: 30px;
+  }
+}
+.bs3-simply-me .btn-default {
+  position: relative;
+  padding-left: 48px;
+  color: var(--colorBlack);
+}
+.bs3-simply-me .btn-default:hover,
+.bs3-simply-me .btn-default:focus {
+  color: var(--colorGreen);
+}
+.bs3-simply-me .btn-default .glyphicon {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translate(0, -50%);
+}
+.bs3-simply-me .navbar-nav {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.bs3-simply-me .navbar-default .navbar-nav > li > a:focus:hover,
+.bs3-simply-me .navbar-default .navbar-nav > li > a:hover:hover {
+  color: var(--colorGreen);
+}
+.bs3-simply-me .navbar-header .skip-link {
+  color: var(--colorWhite);
 }
 .bs3-blog .row {
   background-color: var(--colorGrey);
