@@ -1,4 +1,4 @@
-# BS Temlates
+# BS Templates
 
 В проекте использованы:
 
